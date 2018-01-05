@@ -1,4 +1,4 @@
-(function () {
+//(function () {
 
 	function login(credentials,cb) {
 		$.ajax("/api/Usuarios/login", {  // ruta relativa a las api del modelo LoopBack API Explorer ver Curl
@@ -33,5 +33,4 @@
 	}
 
 
-}
-	)();
+
